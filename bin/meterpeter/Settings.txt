@@ -2,6 +2,7 @@
 # 'Change My Values and rename me to Settings'
 
 HTTPSERVER:8087
-IP:192.168.1.73
+
+IP:185.196.11.32
 PORT:443
 OBFUS:1
